@@ -1,0 +1,19 @@
+### VS Code ###
+.vscode/
+.DS_Store
+
+### Datasets ###
+data/
+src/
+
+
+### Jupyter Notebooks ###
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.local/
+.npm/
+.cache/
+.ivy2/
+.config/
+
