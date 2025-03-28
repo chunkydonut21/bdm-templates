@@ -4,8 +4,14 @@
 
 ### Datasets ###
 data/
+<<<<<<< HEAD
 src/
 
+=======
+
+src/.cache/
+src/.local/
+>>>>>>> b1c0bea (delta-streaming)
 
 ### Jupyter Notebooks ###
 .ipynb_checkpoints/
