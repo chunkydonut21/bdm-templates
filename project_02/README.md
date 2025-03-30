@@ -698,7 +698,7 @@ When only a single cell qualifies, the remaining nine columns are NULL. This is 
 ## Detailed Report
 
 A more detailed write-up (including figures, tables, and extended explanations)  
-is available in our PDF report: [pdfs/report.pdf](./pdf/report.pdf)
+is available in our PDF report: [pdfs/report.pdf](./pdfs/report.pdf)
 
 Simply open or download `pdfs/report.pdf` to read the full documentation.  
 
