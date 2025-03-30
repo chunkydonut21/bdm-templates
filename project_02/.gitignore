@@ -1,0 +1,9 @@
+# Ignore hidden folders created by various tools
+.cache/
+.config/
+.ipynb_checkpoints/
+.ipython/
+.ivy2/
+.jupyter/
+.local/
+.npm/
