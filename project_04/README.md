@@ -5,7 +5,7 @@
 Project [Big Data](https://courses.cs.ut.ee/2025/bdm/spring/Main/HomePage) is provided by [University of Tartu](https://courses.cs.ut.ee/).
 
 ---
-# Project 3: Analysing Flight Interconnected Data
+# Project 4: Airline Delay and Cancellation Prediction with Spark ML
 
 **Students**  
 - Juan Gonzalo Quiroz Cadavid  
@@ -57,7 +57,7 @@ Project [Big Data](https://courses.cs.ut.ee/2025/bdm/spring/Main/HomePage) is pr
    - By default, no token/password is required (see `docker-compose.yml`).
 
 6. **Run** the notebook:
-   - In Jupyter’s file browser, open `project1.ipynb`.
+   - In Jupyter’s file browser, open `project_04.ipynb`.
    - Execute the cells to load data from `data/`, enrich with boroughs, and run the queries.
 
 **Done!** You’re now running the NYC Taxi Data analysis via Docker. 
@@ -65,7 +65,7 @@ Project [Big Data](https://courses.cs.ut.ee/2025/bdm/spring/Main/HomePage) is pr
 ## Detailed Report
 
 A more detailed write-up (including figures, tables, and extended explanations)  
-is available in our PDF report: [pdfs/report.pdf](./pdf/report.pdf)
+is available in our PDF report: 
 
 Simply open or download `pdfs/report.pdf` to read the full documentation.  
 
