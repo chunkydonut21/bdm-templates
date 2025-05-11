@@ -62,6 +62,25 @@ Project [Big Data](https://courses.cs.ut.ee/2025/bdm/spring/Main/HomePage) is pr
 
 **Done!** You’re now running the NYC Taxi Data analysis via Docker. 
 
+
+## 🎯 Task Breakdown & Grading
+| Task                                   | Points | Description                                                               |
+|----------------------------------------|:------:|----------------------------------------------------------------------------|
+| **1. Data Ingestion & Preparation**    |   2    | Define schema, load 2009/2010 CSV, write Parquet partitioned by date.      |
+| **2. Cleaning & Preprocessing**        |   2    | Rename fields, derive `DayOfWeek`/`Month`, drop null-heavy columns, filter diverted flights. |
+| **3. Exploratory Analysis**            |   2    | Analyze top-10 carriers, cancellation codes, report imbalance ratio (72.7:1).|
+| **4. Feature Engineering**             |   3    | Encode categoricals (Origin, Destination, CRSDepTime, DayOfWeek, Month) and assemble numeric features. |
+| **5. Modeling & Hyperparameter Tuning**|   5    | Train LR, DT, RF, GBT; 3-fold CV on key hyperparameters; evaluate AUC + accuracy.|
+| **6. Explainability**                  |   1    | Plot feature importances for the best tree-based model (Month & Destination top).|
+| **7. Persistence & Inference**         |   2    | Save best model; evaluate on 2010 data (AUC=0.6403, Accuracy=0.9824).      |
+
+---
+
+## 📈 Key Results
+- **Best 2009 model (CV)**: Logistic Regression achieved AUC=0.7428, Accuracy=0.9864.  
+- **2010 evaluation**: AUC=0.6403, Accuracy=0.9824 (using persisted best model).  
+- **Top features**: Month (Feb/Jun) and Destination drive cancellation predictions.
+
 ## Detailed Report
 
 A more detailed write-up (including figures, tables, and extended explanations)  
