@@ -65,7 +65,7 @@ Project [Big Data](https://courses.cs.ut.ee/2025/bdm/spring/Main/HomePage) is pr
 ## Detailed Report
 
 A more detailed write-up (including figures, tables, and extended explanations)  
-is available in our PDF report: 
+is available in our PDF report: [pdfs/report.pdf](./pdfs/report.pdf)
 
 Simply open or download `pdfs/report.pdf` to read the full documentation.  
 
